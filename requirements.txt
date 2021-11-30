@@ -6,6 +6,4 @@ scikit-learn
 scikit-image
 imgaug
 tensorflow
-keras
-jupyter
-jupyterlab
+notebook
