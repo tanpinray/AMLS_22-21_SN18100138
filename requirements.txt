@@ -2,8 +2,13 @@ numpy
 scipy
 matplotlib
 pandas
+tqdm
+ipywidgets
 scikit-learn
 scikit-image
 imgaug
+pywt
+imgaug
+
 tensorflow
 notebook
