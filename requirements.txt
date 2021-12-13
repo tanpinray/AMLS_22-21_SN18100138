@@ -9,5 +9,5 @@ scikit-image==0.18.3
 imgaug==0.4.0
 pywavelets==1.2.0
 
-tensorflow==1.14.0
+tensorflow==2.3.0
 notebook==5.7.8
