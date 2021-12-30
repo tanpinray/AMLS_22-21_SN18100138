@@ -16,8 +16,37 @@ The instructions to run the code is as follows:
 7. (Optional but Recommended) Create and activate a new virtual environment to install the necessary packages to run these files.
 8. Install the required packages by entering the command pip install requirements.txt. If using Anaconda or Miniconda command prompt, steps 7 and 8 can be summarized into the following command: conda create -n amls-cw --file requirements.txt -c defaults
 
+### Necessary packages
+The necessary packages are as follows:
+- numpy==1.21.4
+- scipy==1.7.3
+- matplotlib==3.5.0
+- pandas==1.3.4
+- tqdm==4.62.3
+- ipywidgets==7.6.5
+- scikit-learn==1.0.1
+- scikit-image==0.18.3
+- imgaug==0.4.0
+- pywavelets==1.2.0
+- tensorflow==2.3.0
+- notebook==5.7.8
+
 ### Task A
 1. Open Jupyter Notebook by typing jupyter notebook in the command prompt
 2. Navigate to the repository and open the Task_A file
-3. 
+3. In the first code block in Section 2.3, change 'augmentation' to True or False to select whether the augmented images should be used in training and testing the classifier
+4. In the first code block in Section 4.1, change the value of 'feature' to select which extracted features should be used in training and testing the classifier. The list of features that can be selected are 'hog', 'lbp','multidwt', 'hoglbp', 'hogdwt', 'lbpdwt', 'all'
+5. Run all cells and wait for the classifier to finish training and observe its performance on the test images
 
+### Task B
+1. Open Jupyter Notebook by typing jupyter notebook in the command prompt
+2. Navigate to the repository and open the Task_B file
+3. In the first code block in Section 2.3, change 'augmentation' to True or False to select whether the augmented images should be used in training and testing the classifier
+4. In the first code block in Section 4.1, change the value of 'feature' to select which extracted features should be used in training and testing the classifier. The list of features that can be selected are 'hog', 'lbp','multidwt', 'hoglbp', 'hogdwt', 'lbpdwt', 'all'
+5. Run all cells and wait for the classifier to finish training and observe its performance on the test images
+
+### Task B (CNN-based Model)
+1. Open Jupyter Notebook by typing jupyter notebook in the command prompt
+2. Navigate to the repository and open the Task_B_NN file
+3. In the first code block in Section 2.4, change 'augmentation' to True or False to select whether the augmented images should be used in training and testing the model
+4. Run all cells and wait for the classifier to finish training and observe its performance on the test images
