@@ -3,10 +3,21 @@
 ## Introduction
 The need for accurate automated brain tumor classification from medical images is crucial to improve medical analysis and diagnosis. This field has been studied for decades and several methods have been proposed. In this project, two brain tumor identification tasks will be attempted with ML classification techniques: Task A which is to identify the presence of a brain tumor in a MRI image; and Task B which is to identify the type of brain tumor in a MRI image. Two models are implemented for the tasks: One which extracts textural features from images using Histogram of Orientated Gradients (HOG), Local Binary Pattern (LBP) and Discrete Wavelet Transform (DWT)  methods, followed by using popular classifiers Support Vector Machines (SVM) and K-Nearest Neighbours (KNN); and another Convolutional Neural Network (CNN) based model which utilizes tranfer learning from a pre-trained Xception architecture to extract features and classify images. It was observed that using HOG and DWT features with RBF kernel SVM performed well in both tasks, with an accuracy of 98% and 95% respectively, whereas the CNN slightly underperformed in identifying brain tumor types, achieving and accuracy of 91%.
 
-Three Jupyter Notebook files are in this project: Task A, Task B and Task B_NN
+Three Jupyter Notebook files are in this project: Task_A, Task_B and Task_B_NN. The first two notebooks use SVM and KNN classifiers for the respective tasks, and the third notebook uses tranfer leaning.
 
 ## Instructions
-The instructions to 
-The training dataset can be downloaded from this URL: http://shorturl.at/hquDP
+The instructions to run the code is as follows:
+1. Clone this repository to your local device
+2. Download the training dataset from this URL: http://shorturl.at/hquDP
+3. Extract the dataset directory from the zipped file downloaded in step 2, which contains the images folder with the MRI images and labels.csv, which stores the class information for each image.
+4. Download the test dataset from this URL: https://drive.google.com/file/d/1LS_C_4_iOeqOyEoWPPoksrk8lqdBKagB/view
+5. Extract the test directory from the zipped file downloaded in step 4, which contains the images folder with the MRI images and labels.csv, which stores the class information for each image.
+6. From your computer's command prompt, move to the directory where the local repository is stored. For example, this can be done through entering the following command: cd {documents/github}/elec0134-amls-cw. The value in {} should be changed to reflect where the local repository is stored in your computer.
+7. (Optional but Recommended) Create and activate a new virtual environment to install the necessary packages to run these files.
+8. Install the required packages by entering the command pip install requirements.txt. If using Anaconda or Miniconda command prompt, steps 7 and 8 can be summarized into the following command: conda create -n amls-cw --file requirements.txt -c defaults
 
-The test dataset can be downloaded from this URL: https://drive.google.com/file/d/1LS_C_4_iOeqOyEoWPPoksrk8lqdBKagB/view
+### Task A
+1. Open Jupyter Notebook by typing jupyter notebook in the command prompt
+2. Navigate to the repository and open the Task_A file
+3. 
+
