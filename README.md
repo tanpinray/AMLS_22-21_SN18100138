@@ -15,21 +15,22 @@ The instructions to run the code is as follows:
 6. From your computer's command prompt, move to the directory where the local repository is stored. For example, this can be done through entering the following command: cd {documents/github}/elec0134-amls-cw. The value in {} should be changed to reflect where the local repository is stored in your computer.
 7. (Optional but Recommended) Create and activate a new virtual environment to install the necessary packages to run these files.
 8. Install the required packages by entering the command pip install -r requirements.txt. If using Anaconda or Miniconda command prompt, steps 7 and 8 can be summarized into the following command: conda create -n amls-cw --file requirements.txt -c conda-forge
+9. If errors occur in the dependencies, use relaxed_requirements.txt instead of requirements.txt
 
 ### Necessary packages
 The necessary packages are as follows:
-- python>=3.7.11
-- numpy==1.21.4
+- python=3.9
+- numpy==1.21.5
 - scipy==1.7.3
-- matplotlib==3.5.0
-- pandas==1.3.4
+- matplotlib==3.5.1
+- pandas==1.3.5
 - tqdm==4.62.3
 - ipywidgets==7.6.5
-- scikit-learn==1.0.1
-- scikit-image==0.18.3
+- scikit-learn==1.0.2
+- scikit-image==0.19.1
 - imgaug==0.4.0
 - pywavelets==1.2.0
-- tensorflow>=2.5.1
+- tensorflow>=2.5.2
 - notebook==6.4.1
 
 ### Task A
@@ -54,3 +55,11 @@ The necessary packages are as follows:
 3. Navigate to the repository and open the Task_B_NN file
 4. In the first code block in Section 2.4, change 'augmentation' to True or False to select whether the augmented images should be used in training and testing the model
 5. Run all cells and wait for the classifier to finish training and observe its performance on the test images
+
+This file can also be run on Google Colab, which uses GPU to speed up model training. To do so, follow these steps:
+1. Import dataset and test folders to Google Drive
+2. Open the notebook on Google Colab
+3. Change the runtime type on Colab to GPU
+4. In the first code block in Section 1, change 'google_colab' to True, which changes file paths to reflect the correct paths to folders in Google Drive
+5. In the first code block in Section 2.4, change 'augmentation' to True or False to select whether the augmented images should be used in training and testing the model
+6. Run all cells and wait for the classifier to finish training and observe its performance on the test images
