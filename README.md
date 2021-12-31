@@ -18,7 +18,7 @@ The instructions to run the code is as follows:
 
 ### Necessary packages
 The necessary packages are as follows:
-- python==3.7 (either 3.7.11 or 3.7.12)
+- python>=3.7.11
 - numpy==1.21.4
 - scipy==1.7.3
 - matplotlib==3.5.0
@@ -29,8 +29,8 @@ The necessary packages are as follows:
 - scikit-image==0.18.3
 - imgaug==0.4.0
 - pywavelets==1.2.0
-- tensorflow==2.3.0
-- notebook==5.7.8
+- tensorflow>=2.5.1
+- notebook==6.4.1
 
 ### Task A
 1. Activate the environment that the packages were installed in
