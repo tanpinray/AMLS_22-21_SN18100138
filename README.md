@@ -62,4 +62,5 @@ This file can also be run on Google Colab, which uses GPU to speed up model trai
 3. Change the runtime type on Colab to GPU
 4. In the first code block in Section 1, change 'google_colab' to True, which changes file paths to reflect the correct paths to folders in Google Drive
 5. In the first code block in Section 2.4, change 'augmentation' to True or False to select whether the augmented images should be used in training and testing the model
-6. Run all cells and wait for the classifier to finish training and observe its performance on the test images
+6. Run all cells and mount Google Drive to Colab by following the instructions
+7. Wait for the classifier to finish training and observe its performance on the test images
