@@ -18,6 +18,7 @@ The instructions to run the code is as follows:
 
 ### Necessary packages
 The necessary packages are as follows:
+- python==3.7.12
 - numpy==1.21.4
 - scipy==1.7.3
 - matplotlib==3.5.0
