@@ -15,7 +15,7 @@ The instructions to run the code is as follows:
 6. From your computer's command prompt, move to the directory where the local repository is stored. For example, this can be done through entering the following command: cd {documents/github}/elec0134-amls-cw. The value in {} should be changed to reflect where the local repository is stored in your computer.
 7. (Optional but Recommended) Create and activate a new virtual environment to install the necessary packages to run these files.
 8. Install the required packages by entering the command pip install -r requirements.txt. If using Anaconda or Miniconda command prompt, steps 7 and 8 can be summarized into the following command: conda create -n amls-cw --file requirements.txt -c conda-forge
-9. If errors occur in the dependencies, use relaxed_requirements.txt instead of requirements.txt
+9. If errors occur when installing the packages, use relaxed_requirements.txt instead of requirements.txt
 
 ### Necessary packages
 The necessary packages are as follows:
