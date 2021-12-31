@@ -9,9 +9,9 @@ Three Jupyter Notebook files are in this project: Task_A, Task_B and Task_B_NN. 
 The instructions to run the code is as follows:
 1. Clone this repository to your local device
 2. Download the training dataset from this URL: http://shorturl.at/hquDP
-3. Extract the dataset directory from the zipped file downloaded in step 2, which contains the images folder with the MRI images and labels.csv, which stores the class information for each image.
+3. Extract the dataset directory from the zipped file downloaded in step 2, which contains the image folder with the MRI images and label.csv, which stores the class information for each image.
 4. Download the test dataset from this URL: https://drive.google.com/file/d/1LS_C_4_iOeqOyEoWPPoksrk8lqdBKagB/view
-5. Extract the test directory from the zipped file downloaded in step 4, which contains the images folder with the MRI images and labels.csv, which stores the class information for each image.
+5. Extract the test directory from the zipped file downloaded in step 4, which contains the image folder with the MRI images and label.csv, which stores the class information for each image.
 6. From your computer's command prompt, move to the directory where the local repository is stored. For example, this can be done through entering the following command: cd {documents/github}/elec0134-amls-cw. The value in {} should be changed to reflect where the local repository is stored in your computer.
 7. (Optional but Recommended) Create and activate a new virtual environment to install the necessary packages to run these files.
 8. Install the required packages by entering the command pip install -r requirements.txt. If using Anaconda or Miniconda command prompt, steps 7 and 8 can be summarized into the following command: conda create -n amls-cw --file requirements.txt -c conda-forge
